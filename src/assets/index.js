@@ -29,8 +29,8 @@ import figma from './tech/figma.png';
 import git from './tech/git.png';
 import html from './tech/html.png';
 import javascript from './tech/javascript.png';
-import java from 'C:/Users/MohdSakibShaikh/Desktop/sakib-portfolio/Portfolio-Template/src/assets/tech/javaIcon.jpg';
-import spring from 'C:/Users/MohdSakibShaikh/Desktop/sakib-portfolio/Portfolio-Template/src/assets/tech/springBootIcon.png'
+import java from 'C:/Users/MohdSakibShaikh/Desktop/sakib-portfolio/Sakib-Portfolio/src/assets/tech/javaIcon.jpg';
+import spring from 'C:/Users/MohdSakibShaikh/Desktop/sakib-portfolio/Sakib-Portfolio/src/assets/tech/springBootIcon.png'
 import nodejs from './tech/nodejs.png';
 import reactjs from './tech/reactjs.png';
 import redux from './tech/redux.png';
