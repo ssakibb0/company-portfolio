@@ -2,7 +2,6 @@
 
 https://github.com/ssakibb0/sakib-professional-portfolio.git
 
-
 I created this portfolio to use as my own but ended up doing something else entirely. However, instead of keeping it buried, I decided to put it up here on GitHub as an open-source resource to help individuals to learn, adapt, and create their own portfolios. Feel free to customize and modify the theme and components to suit your personal style and branding preferences.
 
 ### Hero section
