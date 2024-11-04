@@ -6,23 +6,23 @@ https://github.com/ssakibb0/sakib-professional-portfolio.git
 I created this portfolio to use as my own but ended up doing something else entirely. However, instead of keeping it buried, I decided to put it up here on GitHub as an open-source resource to help individuals to learn, adapt, and create their own portfolios. Feel free to customize and modify the theme and components to suit your personal style and branding preferences.
 
 ### Hero section
-<img width="928" alt="image" src="https://github.com/user-attachments/assets/34a4f403-2ad7-4a13-abb7-92f53649bc6b">
+<img width="928" alt="image" src="https://github.com/user-attachments/assets/9dc51e6d-21bf-493c-8e40-643c4d7390fd">
+
 
 ### About 
-<img width="924" alt="image" src="https://github.com/user-attachments/assets/5a8f229b-d8f8-48ba-9f83-b38c8bf8726c">
+<img width="924" alt="image" src="https://github.com/user-attachments/assets/e64c496b-d102-4207-a759-200ef89f03e3">
+
 
 ### Technology
-<img width="941" alt="image" src="https://github.com/user-attachments/assets/648a6515-42d6-4154-85e9-f31581bdea60">
+<img width="941" alt="image" src="https://github.com/user-attachments/assets/293dee22-05d7-4958-985a-bfc2c17f7187">
 
 ### Project
 You can add your real time project just u need to declare in constant file 
-<img width="938" alt="image" src="https://github.com/user-attachments/assets/08e00656-20f1-441f-b5ba-17fba52e7697">
+<img width="938" alt="image" src="https://github.com/user-attachments/assets/3c7499e3-812c-41be-bd85-0ae066070d64">
+
 
 ### Experience and Contact Us
-<img width="369" alt="image" src="https://github.com/user-attachments/assets/d8cf659e-6116-4408-b42a-a77cd1869eab">
-
-
-
+<img width="369" alt="image" src="https://github.com/user-attachments/assets/c52291de-557a-4c85-b141-24ac2f42974e">
 
 ## License and Attribution
 
