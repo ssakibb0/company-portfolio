@@ -257,8 +257,8 @@ const Contact = () => {
           <p className="text-timberWolf">
             For any project inquiries, feel free to reach out:
           </p>
-          <p className="text-timberWolf">Email: <a href="mailto:mohdsakib8085@gmail.com" className="text-taupe">mohdsakib8085@gmail.com</a></p>
-          <p className="text-timberWolf">Mobile: <span className="text-taupe">7977285050</span></p>
+          {/* <p className="text-timberWolf">Email: <a href="mailto:mohdsakib8085@gmail.com" className="text-taupe">mohdsakib8085@gmail.com</a></p>
+          <p className="text-timberWolf">Mobile: <span className="text-taupe">7977285050</span></p> */}
         </div>
 
         <form

@@ -1,26 +1,76 @@
+// import React from 'react';
+// import { motion } from 'framer-motion';
+// import { styles } from '../styles';
+// import { services } from '../constants';
+// import { fadeIn, textVariant } from '../utils/motion';
+// import { SectionWrapper } from '../hoc';
+
+// const ServiceCard = ({ index, title, icon }) => {
+//   return (
+//     <motion.div
+//       variants={fadeIn('right', 'spring', 0.5 * index, 0.75)}
+//       className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card">
+//       <div
+//         options={{
+//           max: 45,
+//           scale: 1,
+//           speed: 450,
+//         }}
+//         className="bg-jetLight rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
+//         <img src={icon} alt={title} className="w-16 h-16 object-contain" />
+//         <h3 className="text-taupe text-[18px] font-bold text-center">
+//           {title}
+//         </h3>
+//       </div>
+//     </motion.div>
+//   );
+// };
+
+// const About = () => {
+//   return (
+//     <div className="-mt-[6rem]">
+//       <motion.div variants={textVariant()}>
+//         <p className={styles.sectionSubText}>Introduction</p>
+//         <h2 className={styles.sectionHeadText}>Overview.</h2>
+//       </motion.div>
+
+//       <motion.p
+//         variants={fadeIn('', '', 0.1, 1)}
+//         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+//         Hi, I’m Mohd Sakib Shaikh, a passionate Java Developer with hands-on experience in Spring Boot and backend development. I specialize in building RESTful APIs, microservices, and scalable web applications. Currently, I work as a Backend Developer at IBM, developing software solutions with Java, MySQL, and Git. With a focus on continuous learning and collaboration, I aim to create impactful applications that solve real-world challenges.
+//       </motion.p>
+
+//       <div className="mt-20 flex flex-wrap gap-10">
+//         {services.map((service, index) => (
+//           <ServiceCard key={service.title} index={index} {...service} />
+//         ))}
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default SectionWrapper(About, 'about');
+
+
+
+
 import React from 'react';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
-import { services } from '../constants';
+import { services } from '../constants'; // You can modify the services list as needed
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
-const ServiceCard = ({ index, title, icon }) => {
+const ServiceCard = ({ index, title, icon, description }) => {
   return (
     <motion.div
       variants={fadeIn('right', 'spring', 0.5 * index, 0.75)}
       className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card">
       <div
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
         className="bg-jetLight rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
         <img src={icon} alt={title} className="w-16 h-16 object-contain" />
-        <h3 className="text-taupe text-[18px] font-bold text-center">
-          {title}
-        </h3>
+        <h3 className="text-taupe text-[18px] font-bold text-center">{title}</h3>
+        <p className="text-taupe text-center text-sm mt-3">{description}</p>
       </div>
     </motion.div>
   );
@@ -36,13 +86,19 @@ const About = () => {
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
-        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Hi, I’m Mohd Sakib Shaikh, a passionate Java Developer with hands-on experience in Spring Boot and backend development. I specialize in building RESTful APIs, microservices, and scalable web applications. Currently, I work as a Backend Developer at IBM, developing software solutions with Java, MySQL, and Git. With a focus on continuous learning and collaboration, I aim to create impactful applications that solve real-world challenges.
+        className="mt-4 text-taupe text-[20px] max-w-3xl leading-[30px]">
+        At TechFusion, we specialize in providing cutting-edge digital solutions for businesses of all sizes. Our team excels in <b>Web Development</b>, <b>App Development</b>, and <b>Digital Marketing</b>. We focus on delivering scalable, efficient, and customized solutions that help your business grow in the digital era. Whether you're looking for a stunning website, a powerful mobile app, or to enhance your online presence, TechFusion is here to help.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
+          <ServiceCard
+            key={service.title}
+            index={index}
+            title={service.title}
+            icon={service.icon}
+            description={service.description}
+          />
         ))}
       </div>
     </div>

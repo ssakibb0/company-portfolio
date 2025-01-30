@@ -31,6 +31,7 @@ import {
   microverse,
 } from '../assets';
 
+
 export const navLinks = [
   {
     id: 'about',
@@ -44,19 +45,23 @@ export const navLinks = [
     id: 'contact',
     title: 'Contact',
   },
+  {
+    id: 'career',
+    title: 'Career',
+  }
 ];
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: 'Web Development',
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: 'App Developer',
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
+    title: 'Digital Marketing',
     icon: ux,
   },
   {
@@ -133,25 +138,77 @@ const experiences = [
   //   date: 'Aug 2021 - Feb 2022',
   // },
   {
-    title: 'Web Development Intern',
-    company_name: 'Zebo.ai',
+    title: 'Planning',
+    company_name: 'Gather requirements then understand objectives and set project goals',
     icon: microverse,
     iconBg: '#333333',
-    date: 'May 2022 - Aug 2022',
+    date: 'Week 1 - Week 2',
   },
   {
-    title: 'Web Development Intern',
-    company_name: 'Systenic Solution',
+    title: 'Design',
+    company_name: 'Design system architecture then database models then UI UX designs',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'Jun 2023 - Aug 2023',
+    date: 'Week 2 - Week 3',
   },
   {
-    title: 'Application Developer',
-    company_name: 'IBM',
+    title: 'Development',
+    company_name: 'Write code develop the features and integrate various components',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Feb 2024 - Present',
+    date: 'Week 5 - Week 10',
+  },
+  {
+    title: 'Testing',
+    company_name: 'Test the application for bugs and ensure quality and performance',
+    icon: microverse,
+    iconBg: '#333333',
+    date: 'Week 11 - Week 12',
+  },
+  {
+    title: 'Deployment',
+    company_name: 'Deploy the application to the production environment',
+    icon: dcc,
+    iconBg: '#333333',
+    date: 'Week 13 - Week 14',
+  },
+];
+// constants.js
+export const sdlcStages = [
+  {
+    name: 'Planning',
+    description: 'Gather requirements, understand objectives, and set project goals.',
+    date: '2025',
+    icon: microverse, // Image for the icon
+    iconBg: '#FFEB3B', // Background color for the icon
+  },
+  {
+    name: 'Design',
+    description: 'Design system architecture, database models, and UI/UX designs.',
+    date: '2025',
+    icon: kelhel, // Image for the icon
+    iconBg: '#2196F3',
+  },
+  {
+    name: 'Development',
+    description: 'Write code, develop the features, and integrate various components.',
+    date: '2025',
+    icon: dcc, // Image for the icon
+    iconBg: '#4CAF50',
+  },
+  {
+    name: 'Testing',
+    description: 'Test the application for bugs and ensure quality and performance.',
+    date: '2025',
+    icon: microverse, // Image for the icon
+    iconBg: '#F44336',
+  },
+  {
+    name: 'Deployment',
+    description: 'Deploy the application to the production environment.',
+    date: '2025',
+    icon: dcc, // Image for the icon
+    iconBg: '#9C27B0',
   },
 ];
 
