@@ -72,7 +72,7 @@ const Hero = () => {
           {/* Mobile Version (Shown only on mobile screens) */}
 <div className="sm:hidden flex flex-col items-center justify-center text-center space-y-4 p-4">
   <h1 className="text-[45px] font-poppins font-extrabold text-eerieBlack uppercase">
-    TechFusion
+    TechFussion
   </h1>
             
   <b className="text-[20px] text-gray-500">

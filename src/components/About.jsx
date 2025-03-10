@@ -31,7 +31,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[20px] max-w-3xl leading-[30px]">
-        At TechFusion, we specialize in providing cutting-edge digital solutions for businesses of all sizes. Our team excels in <b>Web Development</b>, <b>App Development</b>, and <b>Digital Marketing</b>. We focus on delivering scalable, efficient, and customized solutions that help your business grow in the digital era. Whether you're looking for a stunning website, a powerful mobile app, or to enhance your online presence, TechFusion is here to help.
+        At TechFussion, we specialize in providing cutting-edge digital solutions for businesses of all sizes. Our team excels in <b>Web Development</b>, <b>App Development</b>, and <b>Digital Marketing</b>. We focus on delivering scalable, efficient, and customized solutions that help your business grow in the digital era. Whether you're looking for a stunning website, a powerful mobile app, or to enhance your online presence, TechFussion is here to help.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
